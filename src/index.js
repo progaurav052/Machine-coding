@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainBody from "./components/MainBody";
 import Tabform from "./components/Tabform";
 import ShowAccordian from "./components/ShowAccordian";
+import ChipsInput from "./components/ChipsInput";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 
@@ -26,6 +27,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/showaccord",
         element: <ShowAccordian />,
+      },
+      {
+        path: "/chipsinput",
+        element: <ChipsInput/>,
       },
     ],
   },
