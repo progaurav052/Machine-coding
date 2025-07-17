@@ -6,9 +6,9 @@ const ShowAccordian = () => {
   const [showIndex,setShowIndex]=useState(null) 
   return (
       accordianItems.map((item,index)=>{
-         return (<Accordion item={item} key={index} setShowIndex={setShowIndex} showAccord={index===showIndex?true:false}/>);
+         return (<Accordion item={item} key={index} setShowIndex={setShowIndex} showAccord={index===showIndex?true:false} index={index}/>);
       })
   )
 }
 
-export default ShowAccordian
+export default ShowAccordian;
