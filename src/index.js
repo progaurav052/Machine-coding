@@ -8,6 +8,7 @@ import MainBody from "./components/MainBody";
 import Tabform from "./components/Tabform";
 import ShowAccordian from "./components/ShowAccordian";
 import ChipsInput from "./components/ChipsInput";
+import DarkModeToggler from "./components/DarkModeToggler";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 
@@ -31,6 +32,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/chipsinput",
         element: <ChipsInput/>,
+      },
+      {
+        path: "/darkmodetoggler",
+        element: <DarkModeToggler/>,
       },
     ],
   },

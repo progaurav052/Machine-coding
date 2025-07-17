@@ -30,6 +30,7 @@ const ChipsInput = () => {
       />
       {items.map((item, index) => {
         return (
+          
           <div
             key={index}
             className="bg-gray-200 m-4 p-4 rounded-lg w-1/2 justify-between flex"
